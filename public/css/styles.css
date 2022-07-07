@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .lista{
+      @apply text-green-300 duration-300 ease-in-out hover:text-green-500 ;
+    }
+}
